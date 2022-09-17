@@ -1,0 +1,46 @@
+.contain{
+    /* display: grid;
+    grid-template-columns: repeat(6, 6fr);*/
+    /* grid-gap: 15px;  */
+    /* background-color: antiquewhite; */
+    padding: 25px;
+    text-align: center;
+   
+}
+.contain :hover{
+    transform: rotateY(380deg);
+    transition:  3s;  
+}
+.skill{
+    background-color: #F0F8FF;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skill img{
+    width: 400px;
+}
+.skill p{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* @media only screen and (max-width: 600px) {
+    .contain{
+     display: grid;
+     grid-template-columns: repeat(2, 2fr);
+     grid-gap: 50px;
+     width: 100%;
+     margin-right: 60px;
+    }
+    .skill{
+        width: 100px;
+    }
+    .skill p{
+        font-weight: bold;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+   } */
+ 

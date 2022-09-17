@@ -1,0 +1,33 @@
+/* .form div {
+    margin: 20px;
+}
+
+.form div input {
+    height: 40px;
+    width: 400px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+#input-large {
+    height: 90px;
+    resize: both;
+}
+
+#submit {
+    color: #000;
+    font-size: 20px;
+    height: 60px;
+    width: 140px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: none;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form div input{
+        width: 300px;
+    }
+   
+} */

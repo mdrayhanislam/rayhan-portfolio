@@ -1,0 +1,169 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    /* border: 6px solid rgb(51, 153, 76); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: px;
+    margin-top: 40px;
+    /* background-color: rgb(82, 82, 144); */
+    border-radius: 10px;
+}
+
+.about-me {
+    padding: 10px;
+   
+}
+.about-me h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: azure;
+}
+.st{
+    margin: 10px;
+    /* border: 10px solid red; */
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+   font-weight: bold;
+   padding: 10px;
+   /* background-color: #D8BFD8; */
+   border-radius: 10px;
+   text-align: center;
+   color: aliceblue;
+}
+.st h1{
+    text-align: center;
+}
+.ho{
+    display: block;
+ }
+    .about-me {
+        padding: 50px;
+    }
+    .about-me h5{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .st{
+        margin: 10px;
+        /* border: 10px solid red; */
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
+       font-weight: bold;
+       padding: 10px;
+       /* background-color: #ff8080; */
+       border-radius: 10px;
+       text-align: center;
+    }
+    .st h1{
+        text-align: center;
+    }
+    .hov{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        width: 100%;
+        margin-left: 30px;
+        
+    }
+    .hov :hover{
+      /* background-color: #ff8080 ; */
+      color: white;
+      width: 210px;
+      transition: 1.25s;
+    }
+    .section{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: navy;
+    }
+
+/* .ho :hover{
+  background-color: blue;
+  color: white;
+} */
+.section{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: navy;
+}
+@media only screen and (max-width: 600px) {
+   .container{
+    display: block;
+    margin: auto;
+    
+   }
+   .section{
+    font-size: 25px;
+   }
+   .hov{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+    border: 3 px solid yellow;
+   }
+   .st{
+    display: block;
+    /* border: 4px solid red; */
+
+   }
+   .about-me {
+    margin-left: -20px;
+   }
+    .st p{
+        padding: auto;
+        font-size: 15px;
+    }
+   
+  }
+  @media only screen and (max-width: 900px) {
+    .container{
+        display: block;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .about-me {
+        padding: 30px;
+    }
+    .about-me h5{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .st{
+        margin:5px;
+        /* border: 10px solid red; */
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
+       font-weight: bold;
+       padding: 10px;
+       background-color: #D8BFD8;
+       border-radius: 10px;
+       text-align: center;
+    }
+    .st h1{
+        text-align: center;
+    }
+    .ho{
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+    }
+    .ho :hover{
+      background-color: blue;
+      color: white;
+    }
+    .section{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: navy;
+    }
+  }
