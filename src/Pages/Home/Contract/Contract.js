@@ -1,9 +1,12 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import './Contract.css'
 const Contract = () => {
     return (
         <div id='contract'>
             <h1 className='section'><span className='text-green-600'>Contract</span> Me</h1>
+
+
             <div className="hero  bg-base-200">
 
                 <div className="hero-content flex-col lg:flex-row">
