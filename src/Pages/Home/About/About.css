@@ -51,7 +51,7 @@
         margin: 10px;
         /* border: 10px solid red; */
         width: 200px;
-        height: 100px;
+        height: 110px;
         font-size: 20px;
        font-weight: bold;
        padding: 10px;
@@ -72,8 +72,9 @@
     .hov :hover{
       /* background-color: #ff8080 ; */
       color: white;
-      width: 210px;
-      transition: 1.25s;
+      font-size: 23px;
+      transition: .70s;
+      cursor:  context-menu;
     }
     .section{
         margin-top: 30px;
@@ -115,7 +116,7 @@
 
    }
    .about-me {
-    margin-left: -20px;
+    margin-left: 20px;
    }
     .st p{
         padding: auto;

@@ -18,7 +18,7 @@ import router from '../../../Image/route.png'
 import './Skill.css'
 const Skill = () => {
     return (
-        <div id='skill '>
+        <div id='skill'>
             <h1 className='section'>Skill</h1>
         <div className='contain bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 lg:gap-20 rounded-lg'>
             <div className='skill'>
